@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    height: 100vh;
+    background: url(/src/image/img-1.png) no-repeat;
+    background-size: 55% 85%;
+    background-position: top right;
+
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    max-width: 600px;
+    margin-top: 60px;
+}
+.header-text h1{
+    font-size: 34px;
+}
+.header-text p{
+    line-height: 18px;
+    font-size: 15px;
+    color: #777;
+}
+.header-text button{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.common-btn{
+    padding: 15px 20px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #d2481e;
+    border-radius: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #d2481e;
+    margin: 15px 0;
+}
+.line{
+    line-height: 18px;
+}
+.line-1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d2481e;
+    display: inline-block;
+}
+.line-2{
+    width: 400px;
+    height: 2px;
+    background: #d2481e;
+    display: inline-block;
+
+}
+.line-3{
+    width: 280px;
+    height: 2px;
+    background: #d2481e;
+    display: inline-block;
+
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 2;
+    background: #f35c21;
+    transition: .4s ease;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    font-size: 40px;
+    color: #fff;
+    background: #f35c21;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*---sobre*/
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.about-left-col{
+    flex-basis: 50%;
+}
+.about-left-col img{
+    width: 80%;
+}
+.about-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text{
+    max-width: 700px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px 0 10px;
+}
+.about-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #787878;
+}
