@@ -243,3 +243,55 @@ form input{
     flex-basis: 48%;
     padding: 18px 0;
 }
+/*---Footer*/
+#footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ff8555;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #ff8555;
+    margin-bottom: 20px;
+}
+.link-title small{
+    color: #777;
+    font-size: 13px;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
