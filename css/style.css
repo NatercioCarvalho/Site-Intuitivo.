@@ -112,7 +112,7 @@ nav ul li a{
 }
 
 /*---sobre*/
-#about{
+#about, #offer{
     padding: 100px 0;
     display: flex;
     align-items: center;
@@ -141,3 +141,72 @@ nav ul li a{
     font-style: italic;
     color: #787878;
 }
+/*---Grupo---*/
+#teams{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    
+}
+.teams-row{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.teams-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.teams-col img{
+    width: 200px;
+}
+.teams-col h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.teams-btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teams-btn .line{
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+/*---Cursos---*/
+
+#courses{
+    padding: 100px 0;
+}
+.course-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.course-right-col{
+    flex-basis: 50%;
+}
+.course-right-col img{
+    width: 80%;
+    margin-left: 20%;
+}
+.course-left-col{
+    flex-basis: 50%;
+}
+.course-text{
+    max-width: 300px;
+}
+.course-text button{
+    margin: 30px 0;
+}
+/*---Ofertas*/
+#offer button{
+    margin: 30px 0;
+}
+/*---contatos*/
